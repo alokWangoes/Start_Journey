@@ -2,7 +2,7 @@ const items: any = [
   { id: 1, text: "Home", href: "/" },
   { id: 2, text: "Blog", href: "/" },
   { id: 3, text: "FAQ", href: "/" },
-  { id: 4, text: "How it works", href: "/" },
+  { id: 4, text: "How it works",href: "/"},
   { id: 5, text: "Pricing", href: "/" },
   { id: 6, text: "Products", href: "/" },
 ];

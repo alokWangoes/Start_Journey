@@ -10,7 +10,7 @@ const Homepage = () => {
         <div className="w-1/2 mt-10">
           <div className="mt-40 text mx-14 text-7xl">
             <span className="">
-              Make your <span className="font-bold text-blue-950">own</span>{" "}
+              Make your <span className="font-bold text-blue-950">own</span>
               <br />
             </span>
             <div className="mt-5">

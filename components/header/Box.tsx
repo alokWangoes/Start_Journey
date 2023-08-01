@@ -3,19 +3,19 @@ import Link from "next/link";
 
 const imgData = [
   {
-    src: "/linkdin.svg",
+    src: "/linkdin-1.svg",
     width: 20,
     height: 20,
     href: "/",
   },
   {
-    src: "/facebook.svg",
+    src: "/facebook-1.svg",
     width: 20,
     height: 20,
     href: "/",
   },
   {
-    src: "/twitter.svg",
+    src: "/twitter-1.svg",
     width: 20,
     height: 20,
     href: "/",
@@ -25,8 +25,9 @@ const imgData = [
 const Box = () => {
   return (
     <>
+
       <div className=" bg-gradient-to-r from-fuchsia-200 to-purple-300 border w-auto h-7 mt-5 rounded-md flex justify-between">
-        <div className="px-10 text-center pt-1 flex">
+        <div className="px-10 text-center pt-1 flex"> 
           {imgData.map((data, index) => {
             return (
               <>
@@ -46,11 +47,12 @@ const Box = () => {
         <div>
           <ul className=" inline flex flex-row gap-1 pt-1 pr-10">
             <li className="pt-1">
-              <img src="/flag.svg" />
+              <img src="./flag.svg" />
             </li>
             <li className="text-[#FFFFFF] text-lg font-Aclonica">EN</li>
             <li className="pt-1">
-              <img src="/flat-color-icons_settings.svg" alt="image" />
+              <img src="./flat-color-icons_settings.svg" alt="image" />
+
             </li>
           </ul>
         </div>
