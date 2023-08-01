@@ -5,11 +5,9 @@ import Homepage from "./Homepage";
 const Mainpage = () =>{
     return (
         <>
-
         <Homepage/>
         <Homebody/>
         <Footerbox/>
-        
         </>
     )
 }

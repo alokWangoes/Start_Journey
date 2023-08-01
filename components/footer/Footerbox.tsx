@@ -113,17 +113,17 @@ const Footerbox = () => {
                     type="text"
                     className="border-4 rounded-xl h-10 w-76 pl-14 mx-12 mt-3 pt-5"
                   />
-                  <button className="bg-pink-500 w-28 h-10 rounded-xl  ">
+                  {/* <button className="bg-pink-500 w-28 h-10 rounded-xl  ">
                     Send
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-     
-      <div className="">
+
+      <div className="mt-6 pb-6">
         <ul className="flex flex-row gap-20 font-Roboto text-center  justify-center  ">
           <li className="   text-[#5972C9] ">
             &copy; 2023 PODfusion. All rights preserved
