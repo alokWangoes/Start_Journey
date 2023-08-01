@@ -1,0 +1,7 @@
+.body {
+    background-image: url("../../public/middel.svg");
+    background-size: cover;
+    width: 100% !important;
+    height: 100%;
+
+}
