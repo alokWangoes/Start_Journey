@@ -13,13 +13,15 @@ const Navbar = () => {
         <div className="box" style={{width : "730px"}}>
           <Box />
         </div>
-        <div className="flex-1 pt-6 ">
-          <div className="inline-flex">
-            <div className="text-blue-900 font-bold underline pt-2">
-              <span className="ml-10">LOG</span>
-              <span className="ml-1">IN</span>
+        <div className="  pt-6 ">
+          <div className=" flex flex-row gap-5">
+            <div className="text-blue-900 px-4 font-bold underline pt-2 w-8 inline cursor-pointer">
+              <li className="inline ">LOGIN</li>
+              {/* LOGIN  */}
+            
+              {/* <li className="ml-1">IN</li> */}
             </div>
-            <div className="ml-4">
+            <div className="ml-4 px-8">
               <HeaderButton />
             </div>
           </div>

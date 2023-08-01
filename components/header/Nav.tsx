@@ -12,7 +12,7 @@ const Nav = () => {
       <div className="inline text-blue-900  cursor-pointer">
         {items.map((item: any) => {
           return (
-            <span key={item.id} className="px-5 py-5">
+            <span key={item.id} className="px-6 py-6">
               {item.text}
             </span>
           );
